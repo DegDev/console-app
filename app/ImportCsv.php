@@ -43,15 +43,16 @@ class ImportCsv
 
             $shop = new Shop();
 
-            $shop->region_id = $data[0];
+            $shop->setRegionId($data[0]);
 
             $shop->setTitle($data[1]);
 
-            $shop->city = $data[2];
+            $shop->setCity($data[2]);
 
-            $shop->address = $data[3];
+            $shop->setAddress($data[3]);
 
-            $shop->user_id = $data[4];
+            $shop->setUserId($data[4]);
+
 
 
             if ($shop->validate()) {
