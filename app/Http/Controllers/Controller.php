@@ -18,6 +18,10 @@ use Symfony\Component\Console\Helper\TableSeparator;
 class Controller extends BaseController
 {
 
+    public function index(){
+
+        return 'Console application currently running only under console.<br>Try <b>./shop.php Show</b>';
+    }
    
    
 }
