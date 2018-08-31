@@ -1,6 +1,8 @@
 # console-app
 Console-app on Lumen, import shops database from csv to mysql
 
+![alt Mockup](https://raw.githubusercontent.com/DegDev/console-app/master/public/task.png)
+
 <h1> Installation </h1>
 
 1. Clone repository
