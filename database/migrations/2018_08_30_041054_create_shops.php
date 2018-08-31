@@ -19,7 +19,7 @@ class CreateShops extends Migration
             $table->integer('user_id');
             $table->string('title');            
             $table->string('city');
-            $table->string('address');            
+            $table->text('address');           
         });
     }
 
