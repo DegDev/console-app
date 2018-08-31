@@ -11,4 +11,4 @@ Console-app on Lumen, import shops database from csv to mysql
 <h1> Console Commands </h1>
 ./shop.php Import  open ./storage/shop.csv file by default, process it and write to MySQL Database <br><br>
 ./shop.php Import "/path/to/file.csv" as param you can select any path to csv file <br><br>
-./shop.php Show [number] Show in console all records if no parameter given, with parameter show last records. Praremeter value can't be more than 20.<br>
+./shop.php Show [number] Show in console all records if no parameter given, with parameter show last records.<br>Praremeter value can't be more than 20.<br>
